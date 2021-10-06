@@ -6,57 +6,50 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Portfolio</title>
-  <style>
-    body {
-      background-color: #818AA3;
-    }
-
-    .font-name {
-      font-family: Impact;
-    }
-
-    strong {
-      font-size: large;
-    }
-
-    .first-size {
-      font-size: large;
-    }
-
-    .seccound-size {
-      font-size: xxx-large
-    }
-
-    img {
-      border-radius: 50%;
-    }
-  </style>
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-  <img src="/foto-perfil.jpg" alt="minha foto de pergil" height="300px">
-  <a name="nome">
-    <h1 class="nome">JEAN RICARDO MONTE VIEGAS</h1>
-  </a>
+  <header class="header-container">
+    <div class="header">
+      <div class="checkbox-container">
+        <div class="checkbox-wrapper"></div>
+          <input type="checkbox"  id="toggle">
+          <label for="toggle" class="checkbox">
+          <div class="trace"></div>
+          <div class="trace"></div>
+          <div class="trace"></div>
+        </label>
+        <div class="menu"></div>
+        <nav class="menu-items">
+          <ul>
+            <li>
+              <a href="#">Home</a>
+            </li>
+            <li>
+              <a href="#">Sobre</a>
+            </li>
+            <li>
+              <a href="#">Projetos</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+    <h1>Jean Viegas</h1>
+    <h2>Full Stack Web Development Student</h2>
+    <div class="social-media">
+      <a href="">Linkedin</a>
+      <a href="">Github</a>
+    </div>
 
-  <p class="description">
-    Trabalho como técnico de informática, sou formado em Análise e Desenvolvimento de Sistemas, <em> e estou estudando
-      para ser um excelente desenvolvedor web</em>
-  </p>
-  <p> <strong> Brasileiro, natural de Santarém e residente em Melgaço no estado do Pará</strong></p>
-  <h3>Principais habilidades</h3>
-  <ul>
-    <li class="first-size"><strong>Montagem e Manutenção de Computadores</strong></li>
-    <li class="seccond-size">Manutenção de Sistemas Android</li>
-    <li class="third-size">Suporte ao usuário</li>
-    <li class="fourth-size">Algum conhecimento sobre Java, Python e Android</li>
+  </header>
+  <main></main>
+  <footer></footer>
 
-  </ul>
-  <a href="/foto-perfil.jpg">Link direto para foto de perfil</a>
-  <br>
-  <a href="https://googlediscovery.com/" target="_blank">Meu blog preferido</a>
-  <br>
-  <a href="#nome">Link interno para o nome</a>
+
+
+
 </body>
 
 </html>
